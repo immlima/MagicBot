@@ -1,13 +1,15 @@
-
 # PauperBot
 
 Bot de discord que responde basiada no nome, a imagem da carta,os formatos validos e os decks mais jogados no formato
 
 - Com card, c carta
+
 Procura o card. ?[card, c ou carta] Monastery Swiftspear
 
 - meta, m ou field
+
 Decks do metagame. ?[meta, m ou field] FORMATOS
+
 FORMATOS :
 standard, t2, s, padrao ou padrão
 modern, m ou moderno
