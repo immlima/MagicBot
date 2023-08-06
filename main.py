@@ -131,7 +131,7 @@ async def card(message, *args):
     print(contador_c_card)
 
 contador_c_meta=0
-@client.command(name="meta", aliases=['m', 'field'],help=f"| Decks do metagame. ?[meta|m|field] [FORMATO] {os.linesep}{os.linesep}[standard|t2|s|padrao|padrão]{os.linesep}[modern|m|moderno]{os.linesep}[pioneer|pi|pioneiro]{os.linesep}[historic|h|histórico|historico]{os.linesep}[explorer|e|explorador]{os.linesep}[alchemy|a|alquimia]{os.linesep}[pauper|p|pobre]{os.linesep}[legacy|t1.5|t1,5|l|legado]{os.linesep}[vintage|t1|v]{os.linesep}[penny preadful|pd|penny]{os.linesep}[duel commander|duel|d|cx1|c1x1|commander 1v1|commander 1x1|commander x1]{os.linesep}[commander|c|edh]{os.linesep}[historic brawl|hb]{os.linesep}[braw|b|briga]")
+@client.command(name="meta", aliases=['m', 'field'],help=f"| Decks do metagame. ?[meta|m|field] [FORMATO] {os.linesep}{os.linesep}[standard|t2|s|padrao|padrão]{os.linesep}[modern|m|moderno]{os.linesep}[pioneer|pi|pioneiro]{os.linesep}[historic|h|histórico|historico]{os.linesep}[explorer|e|explorador]{os.linesep}[alchemy|a|alquimia]{os.linesep}[pauper|p|pobre]{os.linesep}[legacy|t1.5|t1,5|l|legado]{os.linesep}[vintage|t1|v]{os.linesep}[penny_dreadful|pd|penny]{os.linesep}[duel_commander|duel|d|cx1|c1x1|commander_1v1|commander_1x1|commander x1]{os.linesep}[commander|c|edh]{os.linesep}[historic_brawl|hb]{os.linesep}[braw|b|briga]")
 async def meta(message, *args):
     global contador_c_meta
     if message.author == client.user or message.author.bot:
